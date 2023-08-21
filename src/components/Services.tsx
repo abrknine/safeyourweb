@@ -28,7 +28,7 @@ const ourServices = [
 
 const OurServices: React.FC = () => {
   return (
-    <div className="pt-5 bg-gray-100 min-h-screen px-16 flex items-center justify-center bg-gradient-to-b from-[#111115] to-[#111111]">
+    <div className="pt-10 bg-gray-100 min-h-screen px-16 flex items-center justify-center bg-gradient-to-b from-[#111114] to-[#111111]">
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <div className="h-screen bg-gradient-to-b from-[#06041e] to-[#111111]">
+    <div className="h-screen border-b-[0.5px] border-slate-900 bg-gradient-to-b from-[#06041e] to-[#111111]">
       <Navbar />
       <div className="flex h-[88vh] items-center gap-4 px-20 mt-auto px-21">
         <motion.div
@@ -25,15 +25,15 @@ const Hero: React.FC = () => {
           variants={textVariants}
         >
           <p className="text-sky-200">Best In Security</p>
-          <h1 className="text-4xl leading-normal sm:mt-8 text-white">
+          <h1 className="text-4xl leading-[1.5] sm:mt-8 text-white">
             We Protect and Grow Your Business, with Bold IT Security Services
             Don’t Risk Your Bussiness’s Future, Choose Our Top-Rated IT Security
             Services.
           </h1>
-          <p className="text-slate-400 sm:mt-4">
+          <p className="text-slate-400 sm:mt-5">
             Elevate Your Business with Our Acclaimed IT Security Solutions
           </p>
-          <button className="px-6 py-2 bg-transparent text-slate-200 mt-10 border rounded-full hover:bg-slate-200 hover:text-slate-950 hover:border-slate-200 duration-300">
+          <button className="px-10 py-2 bg-transparent text-slate-200 mt-12  border rounded-full hover:bg-slate-200 hover:text-slate-950 hover:border-slate-200 duration-300">
             <Link to={"/"} /> Explore Our Services
           </button>
         </motion.div>
