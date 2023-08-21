@@ -1,12 +1,16 @@
-
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
+import Base from './routes/Base'
 
 function App() {
 
   return (
-    <div className="bg-black">
-      <h1 className="text-3xl text-white">Hey Welcome!!</h1>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Base/>}/>
+    </Routes>
+</>
+
   )
 }
 
