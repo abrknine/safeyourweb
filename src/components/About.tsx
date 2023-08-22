@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { AiOutlineSafety, AiOutlineTeam, AiOutlineSecurityScan, AiOutlineLock } from 'react-icons/ai';
+import { RiSecurePaymentFill, RiTimerFlashFill } from 'react-icons/ri'
 import AboutCard from './utils/AboutCard';
 
 
@@ -29,6 +30,18 @@ const AboutUs: React.FC = () => {
           description:
             'Your data privacy is our priority. We implement robust encryption measures and data handling practices to ensure the confidentiality of your sensitive information.',
         },
+        {
+          icon: <RiTimerFlashFill className="text-3xl text-blue-500 mb-2" />,
+          title: '24/7 Monitoring',
+          description:
+            'Our round-the-clock monitoring ensures that your systems are under constant surveillance. We promptly detect and respond to any suspicious activities, providing you with peace of mind.',
+        },
+        {
+          icon: <RiSecurePaymentFill className="text-3xl text-blue-500 mb-2" />,
+          title: 'Secure Data Transmission',
+          description:
+            'We prioritize secure data transmission. Our encryption protocols and secure channels guarantee that your information remains confidential and protected during transmission over the internet.',
+        },
       ];
       
     return (
@@ -36,7 +49,7 @@ const AboutUs: React.FC = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#06041e] to-[#111111] py-8 text-white"
+        className="flex items-center justify-center min-h-screen bg-gradient-to-b from-[#06041e] to-[#111111] py-8 text-white"
       >
         <div className="px-10 md:px-20 lg:px-28">
           <h1 className="text-4xl font-extrabold mb-6">Elevating Trust Through Web Security Excellence</h1>
@@ -45,7 +58,7 @@ const AboutUs: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             {cardData.map((card, index) => (
-              <AboutCard key={index} icon={card.icon} title={card.title} description={card.description} />
+              <AboutCard key={index} icon={card.icon} title={card.title} description={card.description} delay={index * 0.2} />
             ))}
           </div>
         </div>
