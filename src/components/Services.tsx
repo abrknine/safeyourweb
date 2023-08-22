@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaShieldAlt, FaCode, FaUserFriends, FaLightbulb } from 'react-icons/fa';
 import { motion } from 'framer-motion'
-import ServiceCard from './utils/OurServicesCard';
+import ServiceCard from './utils/ServicesCard';
 
 const ourServices = [
   {
@@ -28,7 +28,7 @@ const ourServices = [
 
 const OurServices: React.FC = () => {
   return (
-    <div className="pt-10 bg-gray-100 min-h-screen px-16 flex items-center justify-center bg-gradient-to-b from-[#111114] to-[#111111]">
+    <div className="py-10 bg-gray-100 min-h-screen px-16 flex items-center justify-center bg-gradient-to-b from-[#111111] to-[#06041e]">
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
