@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container mx-auto py-12 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto py-12 md:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h2 className="text-xl font-semibold">Company</h2>
           <ul className="list-none">
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto py-4 px-4 flex justify-between items-center">
+      <div className="container mx-auto py-4 md:px-8 flex justify-between items-center">
         <div>
           <p>&copy; 2023 Safe Your Web. All rights reserved.</p>
         </div>
