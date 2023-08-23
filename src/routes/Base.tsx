@@ -1,4 +1,5 @@
 import About from "../components/About";
+import FAQPage from "../components/FAQ";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Support from "../components/Support";
@@ -12,6 +13,7 @@ const Base: React.FC = () => {
       <About />
       <Support />
       <WhyUs />
+      <FAQPage />
     </div>
   );
 };
