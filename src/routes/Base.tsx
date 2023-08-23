@@ -2,6 +2,7 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Support from "../components/Support";
+import WhyUs from "../components/WhyUs";
 
 const Base: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Base: React.FC = () => {
       <Services />
       <About />
       <Support />
+      <WhyUs />
     </div>
   );
 };

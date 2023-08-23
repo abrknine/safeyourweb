@@ -19,7 +19,7 @@ const serviceItems = [
   { icon: <FiCode />, title: 'Code Insight' },
 ];
 
-const SupportPage: React.FC = () => {
+const Support: React.FC = () => {
   return (
     <div className="min-h-screen p-20 flex flex-col items-center justify-center py-20 bg-gradient-to-b from-[#111115] to-[#06041e]">
       <motion.div
@@ -54,4 +54,4 @@ const SupportPage: React.FC = () => {
   );
 };
 
-export default SupportPage;
+export default Support;
