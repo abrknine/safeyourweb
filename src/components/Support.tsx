@@ -26,6 +26,7 @@ const SupportPage: React.FC = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}
+        transition={{ duration: 1, delay: 0.5}}
         className="bg-gray-800 p-10 md:p-20 rounded-lg shadow-lg text-white text-center"
       >
         <h1 className="text-2xl lg:text-3xl font-semibold mb-4">Discover our distinct support solutions to empower your endeavors.</h1>

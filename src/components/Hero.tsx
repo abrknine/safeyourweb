@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
   return (
     <div className="min-h-screen border-b-[0.5px] border-slate-900 bg-gradient-to-b from-[#06041e] to-[#111111] bg-red-900">
       <Navbar />
-      <div className="flex md:flex-row flex-col h-[88vh] items-center gap-4 px-10 lg:px-20 mt-10">
+      <div className="flex md:flex-row flex-col h-[88vh] items-center gap-4 px-10 lg:px-20">
         <motion.div
           className="w-full md:w-3/5 font-sans"
           initial="hidden"
