@@ -8,7 +8,7 @@ const ScrollToTopButton: React.FC = () => {
   const controls = useAnimation();
 
   const toggleVisibility = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
