@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
 import FAQPage from "../components/FAQ";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -18,6 +19,7 @@ const Base: React.FC = () => {
       <WhyUs />
       <FAQPage />
       <Pricing />
+      <Contact />
       <Footer />
       <ScrollToTopButton />
     </div>
