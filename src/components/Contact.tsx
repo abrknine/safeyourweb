@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPhoneAlt, FaEnvelope, FaComments } from 'react-icons/fa';
 
-const App: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row min-h-screen px-10 md:px-20 py-8 md:py-10 bg-gray-900">
       <div className="bg-gray-800 text-white md:w-1/2 p-10 px-auto flex flex-col justify-center items-center rounded-tl-md rounded-bl-md md:rounded-bl-none md:rounded-tr-md">
@@ -89,4 +89,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default Contact;
