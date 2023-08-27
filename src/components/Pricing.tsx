@@ -57,21 +57,20 @@ const pricingItems: PricingItemProps[] = [
 ];
 
 const PricingList: React.FC = () => (
-  <div className="bg-gray-900 md:px-10">
-    <div className="container mx-auto text-center mb-6">
+  <div className="bg-gray-900 px-4 md:px-10 lg:px-20">
+    <div className="mx-auto text-center mb-6">
       <h1 className="text-3xl font-semibold text-white">Choose Your Plan</h1>
       <p className="text-gray-400 mt-2">
         Elevate your online security with our range of comprehensive plans designed to fit your needs.
       </p>
     </div>
-    <div className="flex flex-wrap justify-center mx-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
       {pricingItems.map((item, index) => (
         <motion.div
           key={index}
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, delay: index * 0.2 }}
-          className="w-full md:w-1/2 lg:w-1/3 px-4 mb-6"
+          transition={{ duration: 0.5, delay: index * 0.2}}
         >
           <PricingCard {...item} />
         </motion.div>
