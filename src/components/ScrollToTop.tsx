@@ -30,7 +30,7 @@ const ScrollToTopButton: React.FC = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={controls}
-      className={`fixed bottom-8 right-8 p-2 cursor-pointer ${
+      className={`fixed bottom-4 md:bottom-8 right-2 md:right-6 p-2 cursor-pointer ${
         isVisible ? 'visible' : 'invisible'
       }`}
       whileHover={{ scale: 1.1 }}
