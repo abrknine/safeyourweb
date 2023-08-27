@@ -11,17 +11,17 @@ const ourServices = [
     context: 'Regular penetration testing and vulnerability assessments can help you identify weaknesses in your IT security infrastructure and address them before they can be exploited by attackers.',
   },
   {
-    icon: <FaLightbulb className="text-[#00fff1] text-3xl" />,
+    icon: <FaLightbulb className="text-red-500 text-3xl" />,
     title: 'Threat Detection',
     context: 'Your IT security solutions should include robust threat detection and prevention mechanisms to safeguard against cyberattacks such as malware, viruses, and ransomware.',
   },
   {
-    icon: <FaCode className="text-[#00fff1] text-4xl" />,
+    icon: <FaCode className="text-green-500 text-4xl" />,
     title: 'Web Development',
     context: 'We provide professional and reliable web development services to help businesses establish a strong online presence. Our team of skilled developers and designers work closely with our clients.',
   },
   {
-    icon: <BiSolidGroup className="text-[#00fff1] text-4xl" />,
+    icon: <BiSolidGroup className="text-purple-500 text-4xl" />,
     title: 'Security Awareness Training',
     context: 'Employees are often the weakest link in IT security, so it’s essential to provide them with regular security awareness training to educate them about cybersecurity best practices',
   },
