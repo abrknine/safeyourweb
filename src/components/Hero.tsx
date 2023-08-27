@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           variants={textVariants}
         >
           <p className="text-sky-200">Best In Security</p>
-          <h1 className="text-xl md:text-2xl lg:text-4xl leading-[1.5] mt-4 md:mt-8 text-white">
+          <h1 className="text-3xl lg:text-4xl font-extrabold leading-[1.5] mt-4 md:mt-8 text-white">
             We Protect and Grow Your Business, with Bold IT Security Services
             Don’t Risk Your Business’s Future, Choose Our Top-Rated IT Security
             Services.
@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
           </button>
         </motion.div>
         <motion.div
-          className="w-full md:w-1/2 lg:w-2/5 p-4 md:p-8 flex justify-center items-center"
+          className="hidden w-full md:w-1/2 lg:w-2/5 p-4 md:p-8 md:flex justify-center items-center"
           initial="hidden"
           animate="visible"
           variants={imageVariants}
