@@ -29,18 +29,25 @@ const ourServices = [
 
 const OurServices: React.FC = () => {
   return (
-    <div className="px-10 md:px-20 lg:px-28 bg-gray-100 min-h-screen flex items-center justify-center text-white bg-gradient-to-b from-[#111111] to-[#06041e]">
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8"
-    >
-      {ourServices.map((service, index) => (
-        <ServiceCard key={index} icon ={service.icon} title={service.title} context={service.context} delay={index * 0.2} />
-      ))}
-    </motion.div>
-  </div>
+    <div className="px-4 md:px-10 lg:px-20 min-h-screen py-6 md:py-0 flex items-center justify-center text-white bg-gradient-to-b from-[#111111] to-[#06041e]">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8"
+      >
+        {ourServices.map((service, index) => (
+          <ServiceCard
+            key={index}
+            icon={service.icon}
+            title={service.title}
+            context={service.context}
+            delay={index * 0.2}
+          />
+        ))}
+      </motion.div>
+    </div>
   );
 };
+
 
 export default OurServices;
