@@ -51,7 +51,7 @@ const AboutUs: React.FC = () => {
         exit={{ opacity: 0 }}
         className="flex items-center justify-center min-h-screen bg-gradient-to-b from-[#06041e] to-[#111111] py-6 text-white"
       >
-        <div className="px-4 md:px-20 lg:px-28">
+        <div className="px-4 md:px-10 lg:px-20">
           <h1 className="text-3xl md:text-4xl font-extrabold mb-6">Elevating Trust Through Web Security Excellence</h1>
           <p className="text-lg mb-8">
           We redefine IT security through innovative features tailored to your needs. Our experts merge technology and experience for next-gen solutions. We empower you to anticipate threats, protect assets, and transform security. From advanced threat detection to tailored services, we secure your data's future.
