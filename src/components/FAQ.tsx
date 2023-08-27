@@ -48,8 +48,7 @@ const FAQPage: React.FC = () => {
   };
 
   return (
-    <section className="bg-gray-900 text-white py-16 md:px-20">
-      <div className="container mx-auto">
+    <section className="bg-gray-900 text-white py-16 px-4 md:px-10 lg:px-20">
         <h2 className="text-3xl font-semibold mb-8 text-center">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
@@ -81,7 +80,6 @@ const FAQPage: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
     </section>
   );
 };

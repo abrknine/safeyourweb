@@ -43,35 +43,36 @@ const advantages = [
 
 const WhyUs: React.FC = () => {
   return (
-    <section className="py-6 md:py-16 bg-gradient-to-b  from-[#06041e] to-[#111115]">
-      <div className="container mx-auto px-4 md:px-10 lg:px-20">
-        <h2 className="text-3xl font-semibold mb-2 text-center text-white">
+    <section className="py-4 md:py-8 px-4 md:px-10 lg:px-20 bg-gradient-to-b from-[#06041e] to-[#111115]">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 text-center text-white">
           Our Security Advantages
         </h2>
-        <p className="text-lg text-center text-gray-300 mb-8">
+        <p className="text-base md:text-lg lg:text-xl text-center text-gray-300 mb-8">
           Discover why our digital security services are the best choice to keep
           your assets safe from cyber threats.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
           {advantages.map((advantage, index) => (
             <motion.div
               key={index}
-              className="bg-gray-800 p-6 rounded shadow-md"
+              className="bg-gray-800 p-4 md:p-6 rounded shadow-md"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
             >
-              <div className="flex items-center mb-4">{advantage.icon}</div>
-              <h3 className="text-xl font-semibold mb-2 text-white">
+              <div className="flex items-center mb-2 md:mb-4">{advantage.icon}</div>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2 text-white">
                 {advantage.title}
               </h3>
-              <p className="text-gray-300">{advantage.description}</p>
+              <p className="text-gray-300 text-sm md:text-base">
+                {advantage.description}
+              </p>
             </motion.div>
           ))}
         </div>
-      </div>
     </section>
   );
 };
+
 
 export default WhyUs;
