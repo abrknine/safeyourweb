@@ -7,7 +7,7 @@ import AboutCard from './utils/AboutCard';
 const AboutUs: React.FC = () => {
     const cardData = [
         {
-          icon: <AiOutlineSafety className="text-3xl text-blue-500 mb-2" />,
+          icon: <AiOutlineSafety className="text-3xl text-red-500 mb-2" />,
           title: 'Comprehensive Security',
           description:
             'Our state-of-the-art security systems ensure full protection of your online assets. We employ advanced algorithms and continuous monitoring to keep your data safe and secure.',
@@ -19,25 +19,25 @@ const AboutUs: React.FC = () => {
             'Our dedicated team of cybersecurity professionals is always ready to assist you. With a deep understanding of the threat landscape, we provide personalized solutions tailored to your needs.',
         },
         {
-          icon: <AiOutlineSecurityScan className="text-3xl text-blue-500 mb-2" />,
+          icon: <AiOutlineSecurityScan className="text-3xl text-green-500 mb-2" />,
           title: 'Cutting-Edge Technology',
           description:
             'We utilize the latest technology to stay ahead of threats and provide top-notch security solutions. Our proactive approach ensures that your digital assets are protected from both known and emerging risks.',
         },
         {
-          icon: <AiOutlineLock className="text-3xl text-blue-500 mb-2" />,
+          icon: <AiOutlineLock className="text-3xl text-yellow-500 mb-2" />,
           title: 'Data Privacy',
           description:
             'Your data privacy is our priority. We implement robust encryption measures and data handling practices to ensure the confidentiality of your sensitive information.',
         },
         {
-          icon: <RiTimerFlashFill className="text-3xl text-blue-500 mb-2" />,
+          icon: <RiTimerFlashFill className="text-3xl text-purple-500 mb-2" />,
           title: '24/7 Monitoring',
           description:
             'Our round-the-clock monitoring ensures that your systems are under constant surveillance. We promptly detect and respond to any suspicious activities, providing you with peace of mind.',
         },
         {
-          icon: <RiSecurePaymentFill className="text-3xl text-blue-500 mb-2" />,
+          icon: <RiSecurePaymentFill className="text-3xl text-pink-500 mb-2" />,
           title: 'Secure Data Transmission',
           description:
             'We prioritize secure data transmission. Our encryption protocols and secure channels guarantee that your information remains confidential and protected during transmission over the internet.',
@@ -49,10 +49,10 @@ const AboutUs: React.FC = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="flex items-center justify-center min-h-screen bg-gradient-to-b from-[#06041e] to-[#111111] py-8 text-white"
+        className="flex items-center justify-center min-h-screen bg-gradient-to-b from-[#06041e] to-[#111111] py-6 text-white"
       >
-        <div className="px-10 md:px-20 lg:px-28">
-          <h1 className="text-4xl font-extrabold mb-6">Elevating Trust Through Web Security Excellence</h1>
+        <div className="px-4 md:px-20 lg:px-28">
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-6">Elevating Trust Through Web Security Excellence</h1>
           <p className="text-lg mb-8">
           We redefine IT security through innovative features tailored to your needs. Our experts merge technology and experience for next-gen solutions. We empower you to anticipate threats, protect assets, and transform security. From advanced threat detection to tailored services, we secure your data's future.
           </p>
