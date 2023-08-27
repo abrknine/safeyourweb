@@ -11,12 +11,12 @@ import {
 } from 'react-icons/fi';
 
 const serviceItems = [
-  { icon: <FiCheckCircle />, title: 'Risk Assessment' },
-  { icon: <FiEye />, title: 'Security Exploration' },
-  { icon: <FiMonitor />, title: 'Digital Craftsmanship' },
-  { icon: <FiShield />, title: 'Threat Intelligence' },
-  { icon: <FiUsers />, title: 'Team Empowerment' },
-  { icon: <FiCode />, title: 'Code Insight' },
+  { icon: <FiCheckCircle className = "text-blue-500" />, title: 'Risk Assessment' },
+  { icon: <FiEye className = "text-green-500" />, title: 'Security Exploration' },
+  { icon: <FiMonitor className = "text-yellow-500" />, title: 'Digital Craftsmanship' },
+  { icon: <FiShield className = "text-red-500" />, title: 'Threat Intelligence' },
+  { icon: <FiUsers className = "text-purple-500" />, title: 'Team Empowerment' },
+  { icon: <FiCode className = "text-pink-500" />, title: 'Code Insight' },
 ];
 
 const Support: React.FC = () => {
@@ -42,7 +42,7 @@ const Support: React.FC = () => {
               transition={{ delay: index * 0.2 }}
               className="bg-gray-700 p-4 md:p-6 rounded-lg shadow-md flex items-center space-x-2 md:space-x-4 cursor-pointer transition-all transform"
             >
-              <div className="w-10 h-10 md:w-12 md:h-12 text-xl md:text-2xl flex items-center justify-center bg-blue-500 rounded-full">
+              <div className="w-10 h-10 md:w-12 md:h-12 text-xl md:text-2xl flex items-center justify-center bg-gray-800 rounded-full">
                 {item.icon}
               </div>
               <p className="text-base md:text-lg font-medium">{item.title}</p>
