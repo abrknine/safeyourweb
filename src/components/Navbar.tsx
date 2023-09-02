@@ -31,7 +31,10 @@ const Navbar: React.FC = () => {
         } md:flex md:flex-row flex-col md:text-xl md:z-auto z-10 h-screen w-screen md:h-auto transition-transform duration-500 transform ${
           isMenuOpen ? 'translate-x-0 text-center' : 'translate-x-full'
         } md:static md:transform-none md:w-auto md:bg-transparent md:flex`}
-      >
+      > 
+        <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
+         <a href="#" className="block p-4">Home</a>
+        </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <a href="#" className="block p-4">Services</a>
         </li>
