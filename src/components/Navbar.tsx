@@ -33,22 +33,22 @@ const Navbar: React.FC = () => {
         } md:static md:transform-none md:w-auto md:bg-transparent md:flex`}
       > 
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-         <a href="#" className="block p-4">Home</a>
+         <a href="#home" className="block p-4">Home</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#" className="block p-4">Services</a>
+          <a href="#services" className="block p-4">Services</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#" className="block p-4">About Us</a>
+          <a href="#about" className="block p-4">About Us</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#" className="block p-4">Career</a>
+          <a href="#career" className="block p-4">Career</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#" className="block p-4">Contact</a>
+          <a href="#contact" className="block p-4">Contact</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
+          <a href="#tel:+1234567890" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
         </li>
       </ul>
     </div>
