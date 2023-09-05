@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
         <img className="h-24 mt-4 sm:ml-8" src={logo} alt="logo" />
         <p className='text-2xl cursor-pointer hover:text-slate-200'>Safe Your Web</p>
       </div>
-      <div className="md:hidden flex items-center mr-4 md:mr-auto">
+      <div className="lg:hidden flex items-center mr-4 md:mr-0">
         {isMenuOpen ? (
           <BiX className="z-50 border border-gray-900" size="30px" onClick={toggleMenu} />
         ) : (
@@ -27,10 +27,10 @@ const Navbar: React.FC = () => {
       {/* Responsive Menu */}
       <ul
         className={`${
-          isMenuOpen ? 'fixed top-0 bg-gradient-to-b from-[#06041e] to-[#111111] pt-16' : 'hidden'
-        } md:flex md:flex-row flex-col md:text-xl md:z-auto z-10 h-screen w-screen md:h-auto transition-transform duration-500 transform ${
+          isMenuOpen ? 'fixed top-0 bottom-0 left-0 bg-gradient-to-b from-[#06041e] to-[#111111] pt-16' : 'hidden'
+        } lg:flex flex-col lg:flex-row text-2xl lg:text-xl lg:z-auto z-10 h-screen w-screen lg:h-auto transition-transform duration-500 transform ${
           isMenuOpen ? 'translate-x-0 text-center' : 'translate-x-full'
-        } md:static md:transform-none md:w-auto md:bg-transparent md:flex`}
+        } lg:static lg:transform-none lg:w-auto lg:bg-transparent lg:flex`}
       > 
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
          <a href="#home" className="block p-4">Home</a>
@@ -40,6 +40,9 @@ const Navbar: React.FC = () => {
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <a href="#about" className="block p-4">About Us</a>
+        </li>
+        <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
+          <a href="#pricing" className="block p-4">Our-Pricing</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <a href="#career" className="block p-4">Career</a>
