@@ -49,6 +49,7 @@ const AboutUs: React.FC = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
+        id='about'
         className="flex items-center justify-center min-h-screen bg-gradient-to-b from-[#06041e] to-[#111111] py-6 text-white"
       >
         <div className="px-4 md:px-10 lg:px-20">

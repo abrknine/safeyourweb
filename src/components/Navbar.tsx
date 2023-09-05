@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
           <a href="#contact" className="block p-4">Contact</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#tel:+1234567890" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
+          <a href="tel:+917078389426" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
         </li>
       </ul>
     </div>
