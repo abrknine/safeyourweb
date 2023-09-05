@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <div className="border-b-[0.5px] border-slate-900 bg-gradient-to-b from-[#06041e] to-[#111111]">
+    <div id="home" className="border-b-[0.5px] border-slate-900 bg-gradient-to-b from-[#06041e] to-[#111111]">
       <Navbar />
       <div className="flex flex-col md:flex-row items-center gap-4 px-4 md:px-10 lg:px-20 py-8 md:py-16 lg:py-10">
         <motion.div

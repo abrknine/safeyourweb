@@ -43,7 +43,7 @@ const advantages = [
 
 const WhyUs: React.FC = () => {
   return (
-    <section className="py-4 md:py-8 px-4 md:px-10 lg:px-20 bg-gradient-to-b from-[#06041e] to-[#111115]">
+    <section id="whyus" className="py-4 md:py-8 px-4 md:px-10 lg:px-20 bg-gradient-to-b from-[#06041e] to-[#111115]">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 text-center text-white">
           Our Security Advantages
         </h2>

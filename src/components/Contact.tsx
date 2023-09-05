@@ -4,7 +4,7 @@ import { FaPhoneAlt, FaEnvelope, FaComments } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen px-4 md:px-10 lg:px-20 py-8 md:py-10 bg-gray-900">
+    <div id='contact' className="flex flex-col md:flex-row min-h-screen px-4 md:px-10 lg:px-20 py-8 md:py-10 bg-gray-900">
       {/* Left side */}
       <div className="flex flex-col justify-center bg-gray-800 text-white md:w-full p-6 rounded-tl-md rounded-bl-md rounded-tr-md">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">Let's Turn Your Vision into Reality</h1>

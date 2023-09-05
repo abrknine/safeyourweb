@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer id='footer' className="bg-gray-900 text-white">
       <div className="container mx-auto py-6 md:py-12 px-8 md:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
           <h2 className="text-xl font-semibold">Company</h2>
