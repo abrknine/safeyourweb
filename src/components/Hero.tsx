@@ -19,15 +19,15 @@ const Hero: React.FC = () => {
   return (
     <div className="border-b-[0.5px] border-slate-900 bg-gradient-to-b from-[#06041e] to-[#111111]">
       <Navbar />
-      <div className="flex flex-col md:flex-row items-center gap-4 px-4 md:px-10 lg:px-20 py-8 md:py-16 lg:py-24">
+      <div className="flex flex-col md:flex-row items-center gap-4 px-4 md:px-10 lg:px-20 py-8 md:py-16 lg:py-10">
         <motion.div
           className="w-full md:w-1/2 lg:w-3/5"
           initial="hidden"
           animate="visible"
           variants={textVariants}
         >
-          <p className="text-sky-200">Best In Security</p>
-          <h1 className="text-3xl lg:text-4xl font-extrabold leading-[1.5] mt-4 md:mt-8 text-white">
+          <p className="text-cyan-500 text-2xl">Be Fearless Online</p>
+          <h1 className="text-3xl lg:text-4xl font-extrabold leading-[1.5] mt-4 md:mt-2 text-white">
             We Protect and Grow Your Business, with Bold IT Security Services
             Don’t Risk Your Business’s Future, Choose Our Top-Rated IT Security
             Services.
