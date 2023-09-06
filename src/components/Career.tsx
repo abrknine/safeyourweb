@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaBriefcase } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
+import noJobs from '../assets/no-openings.jpg'
 
 interface Career {
   id: number;
@@ -25,7 +26,10 @@ const Career: React.FC = () => {
 
       <h1 className="text-4xl font-bold mb-8 text-center mt-10">Join Our Team</h1>
       {careersData.length === 0 ? (
-        <p className="text-xl text-center">Sorry, there are currently no job openings.</p>
+        <div className='relative mt-24 md:mt-auto flex justify-center items-center'>
+            <p className="text-xl text-center absolute bottom-[-60px] sm:bottom-[-20px] md:bottom-[-30px] ">Sorry, there are currently no job openings.</p>
+            <img src={noJobs} alt="noJobs" />
+        </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {careersData.map((job, index) => (

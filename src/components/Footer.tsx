@@ -4,7 +4,7 @@ import { FiLinkedin, FiInstagram, FiMail } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 const socialIcons = [
-  { icon: FaFacebook, link: '#' },
+  { icon: FaFacebook, link: '' },
   { icon: FaTwitter, link: '#' },
   { icon: FiLinkedin, link: '#' },
   { icon: FiInstagram, link: '#' },
