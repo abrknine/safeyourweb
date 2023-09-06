@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
         } lg:static lg:transform-none lg:w-auto lg:bg-transparent lg:flex`}
       > 
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-         <a href="#home" className="block p-4">Home</a>
+         <Link to={'/'} className="block p-4">Home</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <a href="#services" className="block p-4">Services</a>
