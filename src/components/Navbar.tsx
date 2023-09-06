@@ -34,25 +34,25 @@ const Navbar: React.FC = () => {
         } lg:static lg:transform-none lg:w-auto lg:bg-transparent lg:flex`}
       > 
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-         <Link to={'/'} className="block p-4">Home</Link>
+         <Link to={'/'} onClick={toggleMenu} className="block p-4">Home</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#services" className="block p-4">Services</a>
+          <a href="#services" onClick={toggleMenu} className="block p-4">Services</a>
+        </li>   
+        <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
+          <a href="#about" onClick={toggleMenu} className="block p-4">About Us</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#about" className="block p-4">About Us</a>
-        </li>
-        <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#pricing" className="block p-4">Our-Pricing</a>
+          <a href="#pricing" onClick={toggleMenu} className="block p-4">Our-Pricing</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <Link to={'/career'} className="block p-4">Career</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#contact" className="block p-4">Contact</a>
+          <a href="#contact" onClick={toggleMenu} className="block p-4">Contact</a>
         </li>
         <li className="md:my-0 my-2 flex items-center bg-slate-500 lg:bg-transparent rounded-full hover:bg-slate-200 hover:text-cyan-600 duration-500">
-          <a href="tel:+917078389426" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
+          <a href="tel:+917078389426" onClick={toggleMenu} className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
         </li>
       </ul>
     </div>
