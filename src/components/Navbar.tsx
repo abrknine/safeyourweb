@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BiMenu, BiX } from 'react-icons/bi';
 import { MdOutlinePhoneInTalk } from 'react-icons/md'
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar: React.FC = () => {
     <div className="h-20 flex justify-between items-center md:px-8 lg:px-10 text-white shadow-2xl relative">
       <div className='h-full flex items-center'>
         <img className="h-24 mt-4" src={logo} alt="logo" />
-        <p className='text-lg md:text-2xl cursor-pointer hover:text-slate-200'>Safe Your Web</p>
+        <Link to={'/'} className='text-lg md:text-2xl cursor-pointer hover:text-slate-200'>Safe Your Web</Link>
       </div>
       <div className="lg:hidden flex items-center mr-4 md:mr-0">
         {isMenuOpen ? (
@@ -45,12 +46,12 @@ const Navbar: React.FC = () => {
           <a href="#pricing" className="block p-4">Our-Pricing</a>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#career" className="block p-4">Career</a>
+          <Link to={'/career'} className="block p-4">Career</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <a href="#contact" className="block p-4">Contact</a>
         </li>
-        <li className="md:my-0 my-2 flex items-center bg-slate-500 rounded-full hover:bg-slate-200 hover:text-cyan-600 duration-500">
+        <li className="md:my-0 my-2 flex items-center bg-slate-500 lg:bg-transparent rounded-full hover:bg-slate-200 hover:text-cyan-600 duration-500">
           <a href="tel:+917078389426" className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>
         </li>
       </ul>
