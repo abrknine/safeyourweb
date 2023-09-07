@@ -14,11 +14,11 @@ const Contact: React.FC = () => {
         <div className="flex flex-col w-full md:w-auto gap-4">
           <div className="flex items-center gap-4">
             <FaPhoneAlt size={24} />
-            <span>+123-456-7890</span>
+            <a href='tel:+917078389426'>+91-917078389426</a>
           </div>
           <div className="flex items-center gap-4">
             <FaEnvelope size={24} />
-            <span>query@safeyourweb.com</span>
+            <a href='mailto:query@safeyourweb.com' target='_blank'>query@safeyourweb.com</a>
           </div>
           <div className="flex items-center gap-4">
             <FaComments size={24} />
