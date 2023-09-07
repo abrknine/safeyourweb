@@ -4,11 +4,11 @@ import { FiLinkedin, FiInstagram, FiMail } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 const socialIcons = [
-  { icon: FaFacebook, link: '' },
-  { icon: FaTwitter, link: '#' },
-  { icon: FiLinkedin, link: '#' },
-  { icon: FiInstagram, link: '#' },
-  { icon: FiMail, link: '#' },
+  { icon: FaFacebook, link: 'www.facebook.com/safeyourweb' },
+  { icon: FaTwitter, link: 'www.twitter.com/safeyourweb' },
+  { icon: FiLinkedin, link: 'www.linkedin.com/in/safeyourweb' },
+  { icon: FiInstagram, link: 'www.instagram.com/safeyouweb' },
+  { icon: FiMail, link: 'mailto:query@safeyourweb.com' },
 ];
 
 const Footer: React.FC = () => {
