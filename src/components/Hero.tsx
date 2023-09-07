@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           variants={textVariants}
         >
           <p className="text-cyan-500 text-2xl">Be Fearless Online</p>
-          <h1 className="text-3xl lg:text-4xl font-extrabold leading-[1.5] mt-4 md:mt-2 text-white">
+          <h1 className="text-3xl lg:text-4xl leading-[1.5] mt-4 md:mt-2 text-white">
             We Protect and Grow Your Business, with Bold IT Security Services
             Don’t Risk Your Business’s Future, Choose Our Top-Rated IT Security
             Services.
