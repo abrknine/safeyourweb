@@ -41,7 +41,7 @@ const OurServices: React.FC = () => {
             icon={service.icon}
             title={service.title}
             context={service.context}
-            delay={index * 0.2}
+            delay={index * 0.1}
           />
         ))}
       </motion.div>

@@ -58,7 +58,7 @@ const WhyUs: React.FC = () => {
               className="bg-gray-800 p-4 md:p-6 rounded shadow-md"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
+              transition={{ delay: index * 0.1 }}
             >
               <div className="flex items-center mb-2 md:mb-4">{advantage.icon}</div>
               <h3 className="text-lg md:text-xl lg:text-2xl font-semibold mb-2 text-white">
