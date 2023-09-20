@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BiMenu, BiX } from 'react-icons/bi';
 import { MdOutlinePhoneInTalk } from 'react-icons/md'
-import logo from '../assets/logo.png';
+import logo from '/logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {

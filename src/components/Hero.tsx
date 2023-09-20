@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       <Navbar />
       <div className="flex flex-col md:flex-row items-center gap-4 px-4 md:px-10 lg:px-20 py-8 md:py-16 lg:py-10">
         <motion.div
-          className="w-full md:w-1/2 lg:w-3/5"
+          className="w-full md:w-1/2 lg:w-3/5 font-lora font-semibold"
           initial="hidden"
           animate="visible"
           variants={textVariants}
