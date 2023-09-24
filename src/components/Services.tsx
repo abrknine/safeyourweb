@@ -29,7 +29,8 @@ const ourServices = [
 
 const OurServices: React.FC = () => {
   return (
-    <div id='services' className="px-4 md:px-10 lg:px-20 py-6 md:py-10 flex items-center justify-center text-white bg-gradient-to-b from-[#111111] to-[#06041e]">
+    <div id='services' className="px-4 md:px-10 lg:px-20 py-6 md:py-10 flex flex-col items-center justify-center gap-8 text-white bg-gradient-to-b from-[#111111] to-[#06041e]">
+      <h1 className='text-4xl'>Embark on a Journey Through Our Offerings</h1>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
