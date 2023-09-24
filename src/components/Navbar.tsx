@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
       {/* Responsive Menu */}
       <ul
         className={`${
-          isMenuOpen ? 'fixed top-0 bottom-0 left-0 bg-gradient-to-b from-[#06041e] to-[#111111] pt-16' : 'hidden'
+          isMenuOpen ? 'fixed top-0 bottom-0 left-0 bg-gradient-to-b from-[#06041e] to-[#111111] lg:bg-none pt-16 md:pt-0' : 'hidden'
         } lg:flex flex-col lg:flex-row text-2xl lg:text-xl lg:z-auto z-10 h-screen w-screen lg:h-auto transition-transform duration-500 transform ${
           isMenuOpen ? 'translate-x-0 flex items-center pt-20 text-center' : 'translate-x-full'
         } lg:static lg:transform-none lg:w-auto lg:bg-transparent lg:flex`}
