@@ -59,7 +59,15 @@ const AboutUs: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             {cardData.map((card, index) => (
-              <AboutCard key={index} icon={card.icon} title={card.title} description={card.description} delay={index * 0.1} />
+              <motion.div
+                key={index}
+                className="bg-gray-800 p-4 md:p-6 rounded shadow-md"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+              >
+              <AboutCard key={index} icon={card.icon} title={card.title} description={card.description}/>
+              </motion.div>
             ))}
           </div>
         </div>

@@ -37,13 +37,20 @@ const OurServices: React.FC = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8"
       >
         {ourServices.map((service, index) => (
-          <ServiceCard
+         <motion.div
+              key={index}
+              className="bg-gray-800 p-4 md:p-6 rounded shadow-md"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+         >
+           <ServiceCard
             key={index}
             icon={service.icon}
             title={service.title}
             context={service.context}
-            delay={index * 0.1}
           />
+         </motion.div>
         ))}
       </motion.div>
     </div>
