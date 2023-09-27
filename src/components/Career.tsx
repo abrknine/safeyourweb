@@ -24,7 +24,7 @@ const Career: React.FC = () => {
     >  
       <Navbar />    {/* Navbar */}
 
-      <h1 className="text-4xl font-bold mb-8 text-center mt-10">Join Our Team</h1>
+      <h1 className="text-[1.6rem] lg:text-4xl font-bold mb-8 text-center mt-10">Join Our Team</h1>
       {careersData.length === 0 ? (
         <div className='relative mt-24 md:mt-auto flex justify-center items-center'>
             <p className="text-xl text-center absolute bottom-[-60px] sm:bottom-[-20px] md:bottom-[-30px] ">Sorry, there are currently no job openings.</p>

@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
     <footer id='footer' className="bg-gray-900 text-white border-t border-slate-800">
       <div className="container mx-auto py-6 md:py-12 px-8 md:px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Company</h2>
+          <h2 className="text-base md:text-xl font-semibold">Company</h2>
           <ul className="list-none">
             <li>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Services</h2>
+          <h2 className="text-base md:text-xl font-semibold">Services</h2>
           <ul className="list-none">
             <li>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Industries</h2>
+          <h2 className="text-base md:text-xl font-semibold">Industries</h2>
           <ul className="list-none">
             <li>
               <a href="#" className="text-gray-400 hover:text-white transition duration-300">
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="space-y-4">
-          <h2 className="text-xl font-semibold">Resources</h2>
+          <h2 className="text-base md:text-xl font-semibold">Resources</h2>
           <ul className="list-none">
             {resources.map((item, index) => (
               <li key={index}>
