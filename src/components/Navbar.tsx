@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="h-20 flex justify-between items-center md:px-8 lg:px-10 text-white shadow-2xl relative">
+    <div className="h-20 flex justify-between items-center md:px-8 lg:px-10 text-white shadow-2xl relative bg-gray-900">
       <div className='h-full flex items-center'>
         <img className="h-24 mt-4" src={logo} alt="logo" />
         <Link to={'/'} className='text-lg md:text-2xl cursor-pointer hover:text-slate-200'>Safe Your Web</Link>
@@ -37,19 +37,19 @@ const Navbar: React.FC = () => {
          <Link to={'/'} onClick={toggleMenu} className="block p-4">Home</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#services" onClick={toggleMenu} className="block p-4">Services</a>
+          <Link to={'/services'} onClick={toggleMenu} className="block p-4">Services</Link>
         </li>   
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#about" onClick={toggleMenu} className="block p-4">About Us</a>
+          <Link to={'/about'} onClick={toggleMenu} className="block p-4">About Us</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#pricing" onClick={toggleMenu} className="block p-4">Our-Pricing</a>
+          <Link to={'/pricing'} onClick={toggleMenu} className="block p-4">Our-Pricing</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
           <Link to={'/career'} className="block p-4">Career</Link>
         </li>
         <li className="md:my-0 my-2 hover:text-cyan-600 duration-500">
-          <a href="#contact" onClick={toggleMenu} className="block p-4">Contact</a>
+          <Link to={'/contact'} onClick={toggleMenu} className="block p-4">Contact</Link>
         </li>
         <li className="md:my-0 my-2 flex items-center bg-slate-500 lg:bg-transparent rounded-full hover:bg-slate-200 hover:text-cyan-600 duration-500">
           <a href="tel:+917078389426" onClick={toggleMenu} className="block p-4"><MdOutlinePhoneInTalk size={25} /></a>

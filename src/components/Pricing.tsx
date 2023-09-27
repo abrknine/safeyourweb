@@ -57,7 +57,7 @@ const pricingItems: PricingItemProps[] = [
 ];
 
 const PricingList: React.FC = () => (
-  <div id='pricing' className="bg-gray-900 px-4 md:px-10 lg:px-20">
+  <div id='pricing' className="bg-gray-900 px-4 py-8 md:py-10 md:px-10 lg:px-20">
     <div className="mx-auto text-center mb-6">
       <h1 className="text-3xl font-semibold text-white">Choose Your Plan</h1>
       <p className="text-gray-400 mt-2">
