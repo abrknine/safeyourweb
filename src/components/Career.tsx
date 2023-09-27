@@ -17,7 +17,7 @@ const Career: React.FC = () => {
   return (
     <motion.div
       id='career'
-      className="bg-gradient-to-b from-[#06041e] to-[#111827] min-h-screen text-white border-b-[0.5px] border-slate-700"
+      className="min-h-screen text-white border-b-[0.5px] border-slate-700 bg-gray-900"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

@@ -21,7 +21,7 @@ const serviceItems = [
 
 const Support: React.FC = () => {
   return (
-    <div id='support' className="py-6 bg-gradient-to-b from-[#111115] to-[#06041e] px-4 md:px-10 lg:px-20">
+    <div className="py-6 bg-gray-900 px-4 md:px-10 lg:px-20 py-8 md:py-10">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
