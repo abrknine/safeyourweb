@@ -29,7 +29,7 @@ const Support: React.FC = () => {
         transition={{ duration: 1, delay: 0.5 }}
         className="bg-gray-800 py-10 px-4 rounded-lg shadow-lg text-white text-center"
       >
-        <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4">Discover our distinct support solutions to empower your endeavors.</h1>
+        <h1 className="text-[1.6rem] lg:text-4xl font-semibold mb-4">Discover our distinct support solutions to empower your endeavors.</h1>
         <p className="text-gray-300 md:px-12 lg:px-16 mb-8">
         We're dedicated to enhancing your business's potential through specialized support solutions. Our mission is to empower your journey by providing strategic guidance and expert assistance that aligns with your unique needs.
         </p>

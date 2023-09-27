@@ -49,7 +49,7 @@ const FAQPage: React.FC = () => {
 
   return (
     <section id='faq' className="bg-gray-900 text-white py-16 px-4 md:px-10 lg:px-20">
-        <h2 className="text-3xl font-semibold mb-8 text-center">Frequently Asked Questions</h2>
+        <h2 className="text-[1.6rem] lg:text-4xl font-semibold mb-8 text-center">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="bg-gray-800 p-4 rounded shadow-md">
