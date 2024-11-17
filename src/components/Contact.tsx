@@ -59,11 +59,11 @@ const Contact: React.FC = () => {
           </div>
           <div className="mb-4">
             <select className="w-full p-3 border rounded-md focus:outline-none focus:border-blue-500">
-              <option value="">Select Project Stage</option>
-              <option value="idea">New Idea</option>
-              <option value="development">In Development</option>
-              <option value="completed">Completed</option>
-              <option value="services">Other Services</option>
+              <option value="">Vulnerability Assessments</option>
+              <option value="idea">Threat Detection</option>
+              <option value="development">Web Development</option>
+              <option value="completed">Security Awareness Training</option>
+            
             </select>
           </div>
           <div className="mb-4">
